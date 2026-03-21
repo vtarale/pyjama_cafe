@@ -1,0 +1,9 @@
+</div>
+{{ $script := resources.Get "js/script.js" | js.Build | minify | fingerprint }}
+<script src="{{ $script.RelPermalink }}" integrity="{{ $script.Data.Integrity }}"></script>
+{{ $editor_config := resources.Get "js/editor-config.js" | js.Build | fingerprint }}
+<script type="module" src="{{ $editor_config.RelPermalink }}" integrity="{{ $editor_config.Data.Integrity }}"></script>
+{{ $redirect := resources.Get "js/problem-redirect.js" | js.Build | minify | fingerprint }}
+<script src="{{ $redirect.RelPermalink }}" integrity="{{ $redirect.Data.Integrity }}"></script>
+</body>
+</html>

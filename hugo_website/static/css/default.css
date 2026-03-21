@@ -1,0 +1,45 @@
+::selection {
+    background-color: var(--text-selected-color);
+}
+
+html {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    background-color: var(--bg-color-muted);
+}
+
+h3 {
+    background-color: var(--title-bg-color); 
+    color: var(--title-text-color);            
+    padding: 4px 12px;
+    margin-right: 15px;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+.main-container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: var(--bg-color-muted);
+    color: var(--text-color);
+    font-family: var(--font-family-monospace);
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.panel {
+    padding: 15px;
+    border-right: var(--border-width) solid #333;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.panel:last-child {
+    border-right: none;
+}

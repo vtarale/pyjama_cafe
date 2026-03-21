@@ -1,0 +1,5 @@
+<div class="panel problem-details" problem_id="{{ .Params.problem_id | jsonify }}" code_space="{{ .Params.code_space | markdownify }}">
+    <h3>_DETAILS</h3>
+    <p><strong>Problem:</strong> {{ .Params.problem_id }}</p>
+    {{ .Content }}
+</div>

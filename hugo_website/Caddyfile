@@ -1,0 +1,11 @@
+:3000 {
+    # 1. Route API requests to your Go server
+    handle_path /api/* {
+        reverse_proxy localhost:8080
+    }
+
+    # 2. Route everything else to your Hugo dev server
+    handle {
+        reverse_proxy localhost:1313
+    }
+}

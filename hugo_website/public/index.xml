@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Project</title>
+    <link>http://localhost/</link>
+    <description>Recent content on My New Hugo Project</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 18 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SUM OF TWO NUMBERS</title>
+      <link>http://localhost/problems/001_twosum/</link>
+      <pubDate>Wed, 18 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost/problems/001_twosum/</guid>
+      <description>&lt;p&gt;Given an array of integers &lt;code&gt;nums&lt;/code&gt; and an integer &lt;code&gt;target&lt;/code&gt;, return indices of the two numbers such that they add up to &lt;strong&gt;target&lt;/strong&gt;.&#xA;You may assume that each input would have exactly one solution, and you may not use the same element twice.&lt;/p&gt;&#xA;&lt;h3 id=&#34;example&#34;&gt;Example:&lt;/h3&gt;&#xA;&lt;p&gt;Input: &lt;code&gt;nums = [2, 7, 11, 15], target = 9&lt;/code&gt;&lt;br&gt;&#xA;Output: &lt;code&gt;[0, 1]&lt;/code&gt;&lt;br&gt;&#xA;Explanation: Because &lt;code&gt;nums[0] + nums[1] == 9&lt;/code&gt;, we return &lt;code&gt;[0, 1]&lt;/code&gt;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

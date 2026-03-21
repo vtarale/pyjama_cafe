@@ -1,0 +1,1 @@
+(()=>{document.addEventListener("DOMContentLoaded",function(){$(".problem-item").on("click",function(){const e=$(this).attr("data");window.location.replace(String(e))})})})()

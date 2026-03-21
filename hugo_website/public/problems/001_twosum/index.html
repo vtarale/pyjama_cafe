@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<script src="/livereload.js?mindelay=10&amp;v=2&amp;port=3000&amp;path=livereload" data-no-instant defer></script><header>
+    <meta charset="UTF-8">
+    <title>Terminal Code Runner v1.0</title>
+
+    <link rel="stylesheet" href="/css/colors-n-font.css" type="text/css">
+    <link rel="stylesheet" href="/css/navbar.css" type="text/css">
+    <link rel="stylesheet" href="/css/code-space.css" type="text/css">
+    <link rel="stylesheet" href="/css/default.css" type="text/css">
+    <link rel="stylesheet" href="/css/problem-details.css" type="text/css">
+    <link rel="stylesheet" href="/css/problem-list.css" type="text/css">
+
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/6.65.7/codemirror.min.css"></link>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.13/theme/material-palenight.min.css">
+
+    <script language="javascript" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/6.65.7/codemirror.min.js"></script>
+    <script language="javascript" type="text/javascript" src=" https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.42.2/mode/clike/clike.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.13/addon/edit/closebrackets.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</header>
+
+<body>
+<nav class="navbar">
+        <div class="navbar-item logo">LOGO</div>
+        <div class="navbar-item login">LOGIN</div>
+</nav>
+<div class="main-container">
+<div class="panel problem-list">
+    <h3>_PROBLEMS</h3>
+    
+        <div data="/problems/001_twosum/" class="problem-item">SUM OF TWO NUMBERS</div>
+    
+</div>
+<div class="panel problem-details" problem_id="&#34;001_TwoSum&#34;" code_space="#include &lt;stdio.h&gt;
+int main() {
+printf(&ldquo;hello world&rdquo;);
+}
+">
+    <h3>_DETAILS</h3>
+    <p><strong>Problem:</strong> 001_TwoSum</p>
+    <p>Given an array of integers <code>nums</code> and an integer <code>target</code>, return indices of the two numbers such that they add up to <strong>target</strong>.
+You may assume that each input would have exactly one solution, and you may not use the same element twice.</p>
+<h3 id="example">Example:</h3>
+<p>Input: <code>nums = [2, 7, 11, 15], target = 9</code><br>
+Output: <code>[0, 1]</code><br>
+Explanation: Because <code>nums[0] + nums[1] == 9</code>, we return <code>[0, 1]</code>.</p>
+
+</div>
+<div class="panel code-space-container">
+    <div class="code-space">
+        <textarea id="code"></textarea>
+    </div>
+    <div class="btn-container"><div id="execute-btn">_EXECUTE</div></div>
+    <div id="output">TERMINAL</div>
+</div>
+</div>
+
+<script src="/js/script.min.5cdf857a45ddf51aadd3b02ab509ba5b309aa20f4fec1429cbf954e0288eb9c9.js" integrity="sha256-XN&#43;FekXd9Rqt07AqtQm6WzCaog9P7BQpy/lU4CiOuck="></script>
+
+<script type="module" src="/js/editor-config.78a505917b9d72117a5eb9ed708aefe1b73517fec1e7a4d02e40a48442591089.js" integrity="sha256-eKUFkXudchF6XrntcIrv4bc1F/7B56TQLkCkhEJZEIk="></script>
+
+<script src="/js/problem-redirect.min.fa6682fcf715593d4793a8627d59c857271ae88e2d790c2c9b1e3d9a13a61c9d.js" integrity="sha256-&#43;maC/PcVWT1Hk6hifVnIVyca6I4teQwsmx49mhOmHJ0="></script>
+</body>
+</html>

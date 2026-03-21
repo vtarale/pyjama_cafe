@@ -1,0 +1,20 @@
+:root {
+    --bg-color: #181818;
+    --bg-color-muted: #282828;
+
+    --font-family-monospace: "Fira Mono", monospace;
+    --text-color: #d8d8d8;
+    --text-color-muted: #585858;
+    --text-selected-color: #f7ca88;
+
+    --title-bg-color: #8da16f;
+    --title-text-color: #1a1a1a;
+
+    --login-bg-color: #a66767;
+    --login-bg-color-hover: #bf7979;
+
+    --execute-bg-color: #5b7a8a;
+    --execute-bg-color-hover: #6b8a99;
+
+    --border-width: 1px;
+}

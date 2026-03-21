@@ -1,0 +1,65 @@
+:root {
+    --comment-color: #757575;
+    --string-color: #8da16f;
+    --number-color: #a66767;
+    --keyword-color: #83a3b3;
+    --variable-color: #d4d4d4;
+    --def-color: #c6a57e;
+    --meta-color: #a66767;
+}
+
+.code-space-container {
+    width: 50%;
+}
+
+.code-space {
+    height: 50%;
+}
+
+.CodeMirror {
+    height: 100% !important;
+}
+
+.CodeMirror, .CodeMirror-gutters {
+    background-color: var(--bg-color) !important;
+}
+
+.cm-s-material-palenight span.cm-comment   { color: var(--comment-color) !important; font-style: italic; }
+.cm-s-material-palenight span.cm-string    { color: var(--string-color) !important; }
+.cm-s-material-palenight span.cm-number    { color: var(--number-color) !important; }
+.cm-s-material-palenight span.cm-keyword   { color: var(--keyword-color) !important; }
+.cm-s-material-palenight span.cm-variable  { color: var(--variable-color) !important; }
+.cm-s-material-palenight span.cm-def       { color: var(--def-color) !important; }
+.cm-s-material-palenight span.cm-meta      { color: var(--meta-color) !important; font-weight: bold;}
+
+.btn-container {
+    align-items: center;
+}
+
+#execute-btn {
+    width: 96.5%;
+    text-align: center;
+    padding: 4px 12px;
+    /*margin-right: 15px;*/
+    background-color: var(--execute-bg-color);
+    cursor: pointer;
+}
+
+#execute-btn:hover {
+    background-color: var(--execute-bg-color-hover);
+}
+
+#output {
+    flex-grow: 1;
+    background-color: var(--bg-color);
+    padding: 8px;
+    color: var(--string-color);
+}
+
+.output-default {
+    color: var(--string-color);
+}
+
+.output-error {
+    color: var(--number-color);
+}

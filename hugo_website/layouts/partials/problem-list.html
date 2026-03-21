@@ -1,0 +1,6 @@
+<div class="panel problem-list">
+    <h3>_PROBLEMS</h3>
+    {{ range (where .Site.RegularPages "Section" "problems") }}
+        <div data="{{ .RelPermalink }}" class="problem-item">{{ .Title}}</div>
+    {{ end }}
+</div>
