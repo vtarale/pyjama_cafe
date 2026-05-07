@@ -33,6 +33,7 @@ document.addEventListener('DOMContentLoaded', function() {
         try {
             const response = await fetch(LOCAL_API, {
                 method: 'POST',
+                mode: "cors",
                 headers: {
                     'Content-Type': 'application/json' 
                 },
