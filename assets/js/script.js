@@ -1,5 +1,7 @@
 import { get_editor, saved, change_saved, btn_run, markdown_data } from './editor-config.js'
 
+const LOCAL_API = "http://localhost:8080/execute";
+
 document.addEventListener('DOMContentLoaded', function() {
     const editor = get_editor();
     
@@ -29,8 +31,11 @@ document.addEventListener('DOMContentLoaded', function() {
         outputBox.textContent = "> Compiling...\n> Executing...";
 
         try {
-            const response = await fetch('/api/execute', {
+            const response = await fetch(LOCAL_API, {
                 method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json' 
+                },
                 body: code
             });
             const result = await response.text();
