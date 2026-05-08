@@ -3,3 +3,6 @@ resources/
 .hugo_build.lock
 Dockerfile
 docker/
+Caddyfile
+main.go
+Makefile
